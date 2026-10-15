@@ -22,83 +22,91 @@ extern void CubeRotator__ctor_mB0D76767B47B77FB3D5ED19A08CDDCD27FEAA5B6 (void);
 extern void image_click_OnPointerClick_mA7668A74CE8BE9FB4921278C732D96EC8F7B3EFB (void);
 // 0x00000005 System.Void image_click::.ctor()
 extern void image_click__ctor_mF89CD6D3165535B6FB0F82CA85111915DC466345 (void);
-// 0x00000006 System.Void SkyboxCamera::Start()
+// 0x00000006 System.Void image_click1::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+extern void image_click1_OnPointerClick_mED6D8FA8008ECB130C555E4EA5729F91E61E6FDA (void);
+// 0x00000007 System.Void image_click1::.ctor()
+extern void image_click1__ctor_m76D578021FEB49489A486D39DF822D50C47C6424 (void);
+// 0x00000008 System.Void SkyboxCamera::Start()
 extern void SkyboxCamera_Start_mF11568CD7D4C734C7F24B38DBEACFD788BDB225C (void);
-// 0x00000007 System.Void SkyboxCamera::Update()
+// 0x00000009 System.Void SkyboxCamera::Update()
 extern void SkyboxCamera_Update_m1400FFF7BE6E1D94B8643B506E02FFE83E4D4AF7 (void);
-// 0x00000008 System.Void SkyboxCamera::.ctor()
+// 0x0000000A System.Void SkyboxCamera::.ctor()
 extern void SkyboxCamera__ctor_mE93D854BA8D76587B51A3237ECE22691A2CBF46C (void);
-// 0x00000009 System.Void ScreenSpacePlacement::OnGUI()
+// 0x0000000B System.Void ScreenSpacePlacement::OnGUI()
 extern void ScreenSpacePlacement_OnGUI_m131D2DE38978EF51A723226F69CCBEBF678E55F0 (void);
-// 0x0000000A System.Void ScreenSpacePlacement::.ctor()
+// 0x0000000C System.Void ScreenSpacePlacement::.ctor()
 extern void ScreenSpacePlacement__ctor_m3592010EEF23A8CA0447571A4D0540DAAE62B01A (void);
-// 0x0000000B System.Void KeepFrameFeature::Create()
+// 0x0000000D System.Void KeepFrameFeature::Create()
 extern void KeepFrameFeature_Create_m171A5BFBB3FCEDE885BBCD11B2DBD2EF681A1813 (void);
-// 0x0000000C System.Void KeepFrameFeature::AddRenderPasses(UnityEngine.Rendering.Universal.ScriptableRenderer,UnityEngine.Rendering.Universal.RenderingData&)
+// 0x0000000E System.Void KeepFrameFeature::AddRenderPasses(UnityEngine.Rendering.Universal.ScriptableRenderer,UnityEngine.Rendering.Universal.RenderingData&)
 extern void KeepFrameFeature_AddRenderPasses_m8EBDD47193AECE6813EC490BF0B317D8BF4B426B (void);
-// 0x0000000D System.Void KeepFrameFeature::.ctor()
+// 0x0000000F System.Void KeepFrameFeature::.ctor()
 extern void KeepFrameFeature__ctor_m7DF02EA23136EFE8F8A028E4982CC142125CCD39 (void);
-// 0x0000000E UnityEngine.Rendering.RenderTargetIdentifier KeepFrameFeature/CopyFramePass::get_source()
+// 0x00000010 UnityEngine.Rendering.RenderTargetIdentifier KeepFrameFeature/CopyFramePass::get_source()
 extern void CopyFramePass_get_source_mEC8CB1BB14508ED21EEAAE3556217E6D1AF4EF4F (void);
-// 0x0000000F System.Void KeepFrameFeature/CopyFramePass::set_source(UnityEngine.Rendering.RenderTargetIdentifier)
+// 0x00000011 System.Void KeepFrameFeature/CopyFramePass::set_source(UnityEngine.Rendering.RenderTargetIdentifier)
 extern void CopyFramePass_set_source_m15CFFAC59A762D896DE807027B1C4E6FB5271A21 (void);
-// 0x00000010 UnityEngine.Rendering.Universal.RenderTargetHandle KeepFrameFeature/CopyFramePass::get_destination()
+// 0x00000012 UnityEngine.Rendering.Universal.RenderTargetHandle KeepFrameFeature/CopyFramePass::get_destination()
 extern void CopyFramePass_get_destination_mBAACA50D5C34F9E3764AA3A830DC255FACC81A52 (void);
-// 0x00000011 System.Void KeepFrameFeature/CopyFramePass::set_destination(UnityEngine.Rendering.Universal.RenderTargetHandle)
+// 0x00000013 System.Void KeepFrameFeature/CopyFramePass::set_destination(UnityEngine.Rendering.Universal.RenderTargetHandle)
 extern void CopyFramePass_set_destination_m2D53F04D0FA077FBDE9ADF229207773B804EEA97 (void);
-// 0x00000012 System.Void KeepFrameFeature/CopyFramePass::Setup(UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.Universal.RenderTargetHandle)
+// 0x00000014 System.Void KeepFrameFeature/CopyFramePass::Setup(UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.Universal.RenderTargetHandle)
 extern void CopyFramePass_Setup_m3491E9DCFE894257184E094DC761BE90DBDA2D5A (void);
-// 0x00000013 System.Void KeepFrameFeature/CopyFramePass::Execute(UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.RenderingData&)
+// 0x00000015 System.Void KeepFrameFeature/CopyFramePass::Execute(UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.RenderingData&)
 extern void CopyFramePass_Execute_m0F2984DFB75E1DFCDA7F0326A090897D6BD080D3 (void);
-// 0x00000014 System.Void KeepFrameFeature/CopyFramePass::OnCameraCleanup(UnityEngine.Rendering.CommandBuffer)
+// 0x00000016 System.Void KeepFrameFeature/CopyFramePass::OnCameraCleanup(UnityEngine.Rendering.CommandBuffer)
 extern void CopyFramePass_OnCameraCleanup_m75D0B9EF5D326D3E153CFD619FA36D2C42604AEF (void);
-// 0x00000015 System.Void KeepFrameFeature/CopyFramePass::.ctor()
+// 0x00000017 System.Void KeepFrameFeature/CopyFramePass::.ctor()
 extern void CopyFramePass__ctor_m2360B17171FB859DFA4121CCD19E8D297CBB0EC1 (void);
-// 0x00000016 System.Void KeepFrameFeature/DrawOldFramePass::Setup(UnityEngine.Material,UnityEngine.Rendering.Universal.RenderTargetHandle,System.String)
+// 0x00000018 System.Void KeepFrameFeature/DrawOldFramePass::Setup(UnityEngine.Material,UnityEngine.Rendering.Universal.RenderTargetHandle,System.String)
 extern void DrawOldFramePass_Setup_m34BCA53A2DF9E95092AC6BE52F241F995E55E6FA (void);
-// 0x00000017 System.Void KeepFrameFeature/DrawOldFramePass::Configure(UnityEngine.Rendering.CommandBuffer,UnityEngine.RenderTextureDescriptor)
+// 0x00000019 System.Void KeepFrameFeature/DrawOldFramePass::Configure(UnityEngine.Rendering.CommandBuffer,UnityEngine.RenderTextureDescriptor)
 extern void DrawOldFramePass_Configure_mA0D95E0D7B11387837A5981D577A20AAB8ABA93C (void);
-// 0x00000018 System.Void KeepFrameFeature/DrawOldFramePass::Execute(UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.RenderingData&)
+// 0x0000001A System.Void KeepFrameFeature/DrawOldFramePass::Execute(UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.RenderingData&)
 extern void DrawOldFramePass_Execute_m411E3E84201BB64327C7ACFFDA7D30054F73BB3E (void);
-// 0x00000019 System.Void KeepFrameFeature/DrawOldFramePass::.ctor()
+// 0x0000001B System.Void KeepFrameFeature/DrawOldFramePass::.ctor()
 extern void DrawOldFramePass__ctor_m1998BB7AC63E04054EF58A93EE939A78AF7B8074 (void);
-// 0x0000001A System.Void KeepFrameFeature/Settings::.ctor()
+// 0x0000001C System.Void KeepFrameFeature/Settings::.ctor()
 extern void Settings__ctor_m648CA89D6586B7C90AFAA0ABAAE41BEBCBC0EBBB (void);
-// 0x0000001B System.Void AutoLoadPipelineAsset::OnEnable()
+// 0x0000001D System.Void AutoLoadPipelineAsset::OnEnable()
 extern void AutoLoadPipelineAsset_OnEnable_m8F01AFB09DDF1AE526011816B80BB501613A0828 (void);
-// 0x0000001C System.Void AutoLoadPipelineAsset::OnDisable()
+// 0x0000001E System.Void AutoLoadPipelineAsset::OnDisable()
 extern void AutoLoadPipelineAsset_OnDisable_mDB761DB90A819053B3A980C805D31BF5C33AB56E (void);
-// 0x0000001D System.Void AutoLoadPipelineAsset::UpdatePipeline()
+// 0x0000001F System.Void AutoLoadPipelineAsset::UpdatePipeline()
 extern void AutoLoadPipelineAsset_UpdatePipeline_m6D787ED0350CDA8FBA16C504167C8F461520855E (void);
-// 0x0000001E System.Void AutoLoadPipelineAsset::ResetPipeline()
+// 0x00000020 System.Void AutoLoadPipelineAsset::ResetPipeline()
 extern void AutoLoadPipelineAsset_ResetPipeline_mF69E9423F0D0973A43C6F98F309F70C73AFB93F2 (void);
-// 0x0000001F System.Void AutoLoadPipelineAsset::.ctor()
+// 0x00000021 System.Void AutoLoadPipelineAsset::.ctor()
 extern void AutoLoadPipelineAsset__ctor_mCBAE1B4C81580984306ED4A7551E50B3C2186BBB (void);
-// 0x00000020 System.Void FirstPersonController::Start()
+// 0x00000022 System.Void FirstPersonController::Start()
 extern void FirstPersonController_Start_m5940A43B534E90EEEFCB80D38C63BE02B9309171 (void);
-// 0x00000021 System.Void FirstPersonController::Update()
+// 0x00000023 System.Void FirstPersonController::Update()
 extern void FirstPersonController_Update_m0986ABE7EB54A0B8E271D387E1C92CB3CEDD0748 (void);
-// 0x00000022 System.Void FirstPersonController::Look()
+// 0x00000024 System.Void FirstPersonController::Look()
 extern void FirstPersonController_Look_m9721343790BFDD3D7A9F2981BDD81A7B1E869C33 (void);
-// 0x00000023 System.Void FirstPersonController::Move()
+// 0x00000025 System.Void FirstPersonController::Move()
 extern void FirstPersonController_Move_m372D884408255E88354796FF670DC9AE41A008C6 (void);
-// 0x00000024 UnityEngine.Vector2 FirstPersonController::GetLookInput()
+// 0x00000026 UnityEngine.Vector2 FirstPersonController::GetLookInput()
 extern void FirstPersonController_GetLookInput_mE711583A6A8DB52DAB573348BDBFA9F7FEBB996A (void);
-// 0x00000025 UnityEngine.Vector3 FirstPersonController::GetMovementInput()
+// 0x00000027 UnityEngine.Vector3 FirstPersonController::GetMovementInput()
 extern void FirstPersonController_GetMovementInput_m16078918A608DE73044FEECF33FA8132B38392D2 (void);
-// 0x00000026 System.Void FirstPersonController::.ctor()
+// 0x00000028 System.Void FirstPersonController::.ctor()
 extern void FirstPersonController__ctor_m709B160DB12615DE3A2A6858F4FFE0CAA1B97002 (void);
-// 0x00000027 System.Void TouchController::Update()
+// 0x00000029 System.Void TouchController::Update()
 extern void TouchController_Update_m8492E30F38475D13AB7D335282E88150B936EBD6 (void);
-// 0x00000028 System.Void TouchController::.ctor()
+// 0x0000002A System.Void TouchController::MoveObjectToTouch(UnityEngine.Vector2)
+extern void TouchController_MoveObjectToTouch_mEC03ED25CA8A82985C7C7E80E565C9E960587B7F (void);
+// 0x0000002B System.Void TouchController::.ctor()
 extern void TouchController__ctor_m80AA79A757F5594B7FC0C24167AF815F5B2E7C73 (void);
-static Il2CppMethodPointer s_methodPointers[40] = 
+static Il2CppMethodPointer s_methodPointers[43] = 
 {
 	CubeRotator_Start_m0D211FB1BA67097A7D112A0BE830766EE15D6006,
 	CubeRotator_Update_mE4F5DAFC50F24B2927F498F07E00CA4B2323C4C3,
 	CubeRotator__ctor_mB0D76767B47B77FB3D5ED19A08CDDCD27FEAA5B6,
 	image_click_OnPointerClick_mA7668A74CE8BE9FB4921278C732D96EC8F7B3EFB,
 	image_click__ctor_mF89CD6D3165535B6FB0F82CA85111915DC466345,
+	image_click1_OnPointerClick_mED6D8FA8008ECB130C555E4EA5729F91E61E6FDA,
+	image_click1__ctor_m76D578021FEB49489A486D39DF822D50C47C6424,
 	SkyboxCamera_Start_mF11568CD7D4C734C7F24B38DBEACFD788BDB225C,
 	SkyboxCamera_Update_m1400FFF7BE6E1D94B8643B506E02FFE83E4D4AF7,
 	SkyboxCamera__ctor_mE93D854BA8D76587B51A3237ECE22691A2CBF46C,
@@ -133,12 +141,15 @@ static Il2CppMethodPointer s_methodPointers[40] =
 	FirstPersonController_GetMovementInput_m16078918A608DE73044FEECF33FA8132B38392D2,
 	FirstPersonController__ctor_m709B160DB12615DE3A2A6858F4FFE0CAA1B97002,
 	TouchController_Update_m8492E30F38475D13AB7D335282E88150B936EBD6,
+	TouchController_MoveObjectToTouch_mEC03ED25CA8A82985C7C7E80E565C9E960587B7F,
 	TouchController__ctor_m80AA79A757F5594B7FC0C24167AF815F5B2E7C73,
 };
-static const int32_t s_InvokerIndices[40] = 
+static const int32_t s_InvokerIndices[43] = 
 {
 	5453,
 	5453,
+	5453,
+	4381,
 	5453,
 	4381,
 	5453,
@@ -176,13 +187,14 @@ static const int32_t s_InvokerIndices[40] =
 	5444,
 	5453,
 	5453,
+	4484,
 	5453,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	40,
+	43,
 	s_methodPointers,
 	0,
 	NULL,

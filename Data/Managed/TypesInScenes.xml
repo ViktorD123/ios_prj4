@@ -1,6 +1,7 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="image_click" preserve="nothing"/>
+		<type fullname="image_click1" preserve="nothing"/>
 		<type fullname="TouchController" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime">
@@ -50,6 +51,8 @@
 		<type fullname="UnityEngine.Rendering.Universal.XRSystemData" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.VisualEffectGraph.Runtime">
+		<type fullname="UnityEngine.VFX.Utility.VFXPropertyBinder" preserve="nothing"/>
+		<type fullname="UnityEngine.VFX.Utility.VFXTransformBinder" preserve="nothing"/>
 		<type fullname="UnityEngine.VFX.VFXRuntimeResources" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine">
@@ -69,6 +72,7 @@
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
 		<type fullname="UnityEngine.ComputeShader" preserve="nothing"/>
 		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
@@ -85,6 +89,7 @@
 		<type fullname="UnityEngine.Rendering.GraphicsSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
+		<type fullname="UnityEngine.SphereCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
 		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>

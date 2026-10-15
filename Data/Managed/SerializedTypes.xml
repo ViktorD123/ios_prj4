@@ -21,6 +21,9 @@
 		<type fullname="UnityEngine.Rendering.Universal.UniversalRendererData/ShaderResources" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.XRSystemData/ShaderResources" preserve="nothing" serialized="true"/>
 	</assembly>
+	<assembly fullname="Unity.VisualEffectGraph.Runtime">
+		<type fullname="UnityEngine.VFX.Utility.ExposedProperty" preserve="nothing" serialized="true"/>
+	</assembly>
 	<assembly fullname="UnityEngine.CoreModule">
 		<type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true"/>
